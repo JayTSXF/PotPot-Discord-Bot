@@ -17,7 +17,7 @@ class games(Cog_Extension):
     async def RockPaperScissor(self, ctx):
         """Start a rock paper scissor game."""
         user = ctx.author
-        choices = ["🖐️", "✌️", "✊"]
+        choices = ["🖐️", "✌️", "✊", "😎"]
         choice = random.choice(choices)
         await ctx.send(f'{user.mention}, You choose: ')
         await ctx.send(f'{choice}')
